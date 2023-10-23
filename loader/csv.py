@@ -1,7 +1,7 @@
 import csv
 from dataclasses import dataclass
 
-from src.protocol import Loader
+from loader import Loader
 
 
 @dataclass
