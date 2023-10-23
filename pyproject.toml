@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "oop-in-python"
+version = "0.1.0"
+description = "Object Oriented Programming in Python"
+authors = ["demerara151 <demeraraonfire@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+httpx = "^0.25.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
