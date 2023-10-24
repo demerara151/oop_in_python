@@ -1,10 +1,5 @@
-# type: ignore
-# flake8: noqa
 from dataclasses import dataclass
 from typing import Protocol
-
-from loader.csv import CSVLoader
-from loader.json import JSONLoader
 
 
 @dataclass

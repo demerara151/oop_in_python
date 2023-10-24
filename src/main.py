@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from loader import CSVLoader, JSONLoader, Loader
+from src.loader import CSVLoader, JSONLoader, Loader
 from src.writer import Writer
 
 
