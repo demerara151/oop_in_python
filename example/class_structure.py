@@ -40,7 +40,7 @@ class Japanese(Language):
 
 
 # Another Concrete class
-@dataclass
+@dataclass(slots=True, frozen=True)
 class Speaker:
     "Using Composition instead of Inheritance."
     language: Language  # Any languages under the Language class.
